@@ -12,19 +12,19 @@ public class Push implements Instruction{
 	@Override
 	public void execute(String string) {
 		
-		try {
-			if (hashMap.get(string) != null){
-				stack.push(string);
-			} else {
-//				stack.
-			}
-				
-				
-			System.out.println();
-		} catch (RuntimeException e) {
-			e.printStackTrace();
-			// TODO: handle exception
-		}
+//		try {
+//			if (hashMap.get(string) != null){
+//				stack.push(string);
+//			} else {
+////				stack.
+//			}
+//				
+//				
+//			System.out.println();
+//		} catch (RuntimeException e) {
+//			e.printStackTrace();
+//			// TODO: handle exception
+//		}
 		
 //		try {
 //			

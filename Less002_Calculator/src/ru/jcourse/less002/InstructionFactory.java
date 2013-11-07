@@ -5,8 +5,9 @@ import java.util.Stack;
 
 public class InstructionFactory {
 
-	public static Stack<String> stack = new Stack<>();
+	public static Stack<VarDigit> stack = new Stack<>();
 	public static HashMap<String, Double> hashMap = new HashMap<>();
+	
 
 	public static Instruction getInstruction(String instruction)
 			throws InstantiationException, IllegalAccessException,

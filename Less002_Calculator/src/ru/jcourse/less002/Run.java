@@ -21,7 +21,7 @@ public class Run {
 			InstructionFactory.getInstruction("define").execute("a 66.3");
 			InstructionFactory.getInstruction("define").execute("c 97");
 			
-			InstructionFactory.getInstruction("Push").execute("c97");
+//			InstructionFactory.getInstruction("Push").execute("c97");
 			
 		} catch (Exception e) {
 			e.printStackTrace();

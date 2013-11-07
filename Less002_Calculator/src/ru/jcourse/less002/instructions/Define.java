@@ -2,6 +2,7 @@ package ru.jcourse.less002.instructions;
 
 import ru.jcourse.less002.Instruction;
 import ru.jcourse.less002.InstructionFactory;
+import ru.jcourse.less002.VarDigit;
 import ru.jcourse.less002.exceptions.CanNotParseString;
 
 public class Define implements Instruction {
