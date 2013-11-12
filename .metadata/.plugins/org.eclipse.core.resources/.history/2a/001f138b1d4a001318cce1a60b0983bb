@@ -1,0 +1,27 @@
+package ru.jcourse.less002.instructions;
+
+import java.util.List;
+
+import ru.jcourse.less002.Autowired;
+import ru.jcourse.less002.FieldTarget;
+import ru.jcourse.less002.Instruction;
+import ru.jcourse.less002.InstructionFactory;
+import ru.jcourse.less002.Vars;
+import ru.jcourse.less002.exceptions.CanNotParseString;
+
+public class Define implements Instruction {
+	
+	@Autowired(fieldTarget = FieldTarget.VARS)
+	public Vars vars;
+	
+	@Override
+	public String execute(List<String> params) throws CanNotParseString {
+		try {
+			vars.putVar(params.get(0), Double.valueOf(params.get(1)));
+		} catch (Exception e) {
+			throw new CanNotParseString();
+		}
+		
+		return null;
+	}
+}

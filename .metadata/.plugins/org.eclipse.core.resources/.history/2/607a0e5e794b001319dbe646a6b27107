@@ -1,0 +1,9 @@
+public class Push implements Operation {
+
+	@Override
+	public void execute(String arg1, String arg2) {
+		Storage.push(arg1);
+
+	}
+
+}

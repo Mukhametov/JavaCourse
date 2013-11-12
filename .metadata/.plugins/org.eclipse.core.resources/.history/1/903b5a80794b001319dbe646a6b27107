@@ -1,0 +1,5 @@
+public class Print implements Operation {     // подчеркивает красной волнистой линией void
+        public void  execute(String arguments,Stack stack); // подчеркивает красной волнистой линией void
+        System.out.println (Storage.stack.pop()); // подчеркивает красной волнистой линией все выражение
+
+}

@@ -1,0 +1,50 @@
+package test;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.util.Scanner;
+
+import org.junit.Assert;
+import org.junit.Test;
+//import static ru.jcourse.less002.InstructionFactory;
+
+import ru.jcourse.less002.Controller;
+
+public class TestCalculator1 {
+
+	public double stackCalc(double a, double b, double c) {
+		String s = "DEFINE a " + a + "\nDEFINE b " + b + "\nDEFINE c " + c
+				+ "\nPUSH b\nPUSH b\nMUL\nPUSH 4\nPUSH a\nPUSH c\nMUL\nMUL\n"
+				+ "SUB\nSQRT\nPUSH b\nSUB\nPUSH 2\nPUSH a\nMUL\nDIV\n"
+				+ "PRINT";
+
+		ByteArrayOutputStream out = new ByteArrayOutputStream();
+		Controller controller = new Controller(new ByteArrayInputStream(
+				s.getBytes()), out);
+
+		Scanner scaner = new Scanner(
+				new ByteArrayInputStream(out.toByteArray()));
+
+		return Double.valueOf(scaner.nextLine());
+
+	}
+
+	public double checkCalc(double a, double b, double c) {
+		return (-1 * b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+	}
+
+	public String getMessage(double a, double b, double c) {
+		return "Ошибка TestCalculator1 при данных: a=" + a + "; b=" + b + "; c=" + c;
+	}
+
+	@Test
+	public void test1() {
+		double a = 1;
+		double b = 1;
+		double c = 1;
+
+		Assert.assertEquals(getMessage(a, b, c),
+				stackCalc(a, b, c), checkCalc(a, b, c), 0.111);
+
+	}
+}

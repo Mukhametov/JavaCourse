@@ -1,0 +1,6 @@
+package ru.jcourse.less002;
+
+public enum FieldTarget {
+	STACK,
+	VARS
+}

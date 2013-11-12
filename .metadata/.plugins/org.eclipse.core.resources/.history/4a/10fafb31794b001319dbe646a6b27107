@@ -1,0 +1,7 @@
+public class Push implements Operation {
+	public void execute(String arguments, Stack stack) {
+		Storage.Push(arguments);
+		// без ошибок
+	}
+
+}

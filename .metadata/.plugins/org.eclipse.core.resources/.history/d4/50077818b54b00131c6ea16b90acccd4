@@ -1,0 +1,21 @@
+package ru.jcourse.less002;
+
+
+public class Run {
+
+	public static void main(String[] args) throws Exception {
+
+//		Controller controller = new Controller(new FileInputStream(
+//				"D:\\Prog\\stud\\JavaCourse\\Less002_Calculator\\1"),
+//				System.out);
+
+//		controller.doMany();
+
+		
+		Calculator controller = new Calculator(System.in,
+				System.out);
+
+		
+		controller.doOne();
+	}
+}

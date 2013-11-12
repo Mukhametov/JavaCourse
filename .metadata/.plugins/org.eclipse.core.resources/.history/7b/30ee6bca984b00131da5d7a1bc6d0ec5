@@ -1,0 +1,33 @@
+package ru.jcourse.less002;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.Properties;
+
+import ru.jcourse.less002.components.Controller;
+
+public class Run {
+
+	public static void main(String[] args) throws Exception {
+
+		 new Controller(new FileInputStream(
+		 "D:\\Prog\\stud\\JavaCourse\\Less002_Calculator\\1"),
+		 System.out);
+//		 new Controller(System.in, System.out);
+
+		 Properties properties = new Properties();
+		 properties.put("+", "ru.jcourse.less002.instructions.Add");
+		 properties.put("/", "ru.jcourse.less002.instructions.Div");
+		 properties.put("*", "ru.jcourse.less002.instructions.Mul");
+		 properties.put("Define", "ru.jcourse.less002.instructions.Define");
+		 properties.put("Pop", "ru.jcourse.less002.instructions.Pop");
+		 properties.put("Print", "ru.jcourse.less002.instructions.Print");
+		 properties.put("Push", "ru.jcourse.less002.instructions.Push");
+		 properties.put("#", "ru.jcourse.less002.instructions.Sharp");
+		 properties.put("Sqrt", "ru.jcourse.less002.instructions.Sqrt");
+		 properties.put("Sub", "ru.jcourse.less002.instructions.Sub");
+		 
+		 properties.store(new FileOutputStream("class.properties"), "Trulala");
+		 
+	}
+}

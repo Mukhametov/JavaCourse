@@ -1,0 +1,40 @@
+package ru.jcourse.less002;
+
+import java.lang.reflect.Field;
+
+public class Run {
+
+	public static void main(String[] args) throws Exception {
+
+		 new Controller(new FileInputStream(
+		 "D:\\Prog\\stud\\JavaCourse\\Less002_Calculator\\1"),
+		 System.out);
+		// new Controller(System.in, System.out);
+
+//		Command command = new Command();
+//		command.setInstructionName("Define");
+//		command.addParam("a");
+//		command.addParam("1");
+//		
+//		
+//		
+//		
+//		Vars vars = new Vars();
+//
+//		Class<?> clazz = Class
+//				.forName("ru.jcourse.less002.instructions.Define");
+//		Instruction result = (Instruction) clazz.newInstance();
+//
+//		for (Field f : clazz.getDeclaredFields()) {
+//			Autowired autowired = f.getAnnotation(Autowired.class);
+//			if (autowired != null)
+//				if (autowired.fieldTarget() == FieldTarget.VARS)
+//					f.set(result, vars);
+//
+//		}
+//		
+//		result.execute(command.getParams());
+//		System.out.println(vars.getValue("a"));
+		
+	}
+}

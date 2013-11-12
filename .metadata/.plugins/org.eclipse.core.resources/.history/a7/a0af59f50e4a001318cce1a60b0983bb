@@ -1,0 +1,5 @@
+package ru.jcourse.less002.exceptions;
+
+public class CanNotFindVariable extends RuntimeException{
+
+}

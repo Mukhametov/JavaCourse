@@ -1,0 +1,48 @@
+package ru.jcourse.less002.util;
+
+import java.util.Arrays;
+import java.util.List;
+
+import ru.jcourse.less002.components.obj.Command;
+
+
+public class Parser {
+
+	public static Command parseCommand(String line) {
+		if (line.equals("")) {
+			return null;
+		}
+
+		String[] st = line.split(" ");
+		
+		Command command = new Command();
+
+//		if (line.indexOf(" ") >= 0) {
+//			commandName = line.substring(0, line.indexOf(" ")).trim();
+//			line = line.substring(line.indexOf(" ") + 1);
+//		} else
+//			commandName = line;
+
+		command.setInstructionName(st[0].toUpperCase());
+
+//		while (line.length() > 0) {
+//			if (line.indexOf(" ") < 0) {
+//				command.addParam(line);
+//				break;
+//			}
+//
+//			else {
+//				command.addParam(line.substring(0, line.indexOf(" ")).trim());
+//				line = line.substring(line.indexOf(" ") + 1);
+//			}
+//		}
+		
+		
+		List<String> res = Arrays.asList(st);
+		res.remove(0);
+		command.setParams(res);
+		
+		return command;
+	}
+
+}

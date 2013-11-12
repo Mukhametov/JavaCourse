@@ -1,0 +1,9 @@
+package ru.jcourse.less002;
+
+import java.util.List;
+
+public interface Instruction {
+
+	public String execute(List<String> params) throws RuntimeException;
+
+}

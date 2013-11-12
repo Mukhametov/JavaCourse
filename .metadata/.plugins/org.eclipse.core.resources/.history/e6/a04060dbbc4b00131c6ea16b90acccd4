@@ -1,0 +1,58 @@
+package ru.jcourse.less002.components;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.lang.reflect.Field;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Properties;
+import java.util.Stack;
+
+import ru.jcourse.less002.components.obj.Autowired;
+import ru.jcourse.less002.components.obj.FieldTarget;
+import ru.jcourse.less002.components.obj.Instruction;
+import ru.jcourse.less002.components.obj.VarRegister;
+
+public class InstructionFactory {
+	private String getClassName(String s){
+		Properties properties = new Properties();
+		try {
+			properties.load(new FileInputStream("class.properties"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return properties.getProperty(s);
+	}
+	
+	public Instruction getInstruction(String[] params, VarRegister vars,
+			Stack<Double> stack) {
+		try {
+			Class<?> clazz = Class.forName(getClassName(params[0]));
+			
+			Instruction result = (Instruction) clazz.newInstance();
+
+			for (Field f : clazz.getDeclaredFields()) {
+				Autowired autowired = f.getAnnotation(Autowired.class);
+				if (autowired != null)
+					if (autowired.fieldTarget() == FieldTarget.VARS)
+						f.set(result, vars);
+					else if (autowired.fieldTarget() == FieldTarget.STACK)
+						f.set(result, stack);
+					else if (autowired.fieldTarget() == FieldTarget.PARAMS){
+						String[] str = new String[3]();
+						
+						f.set(result, Arrays.copyOfRange(params, 1, 1));
+					}
+					
+			}
+
+			return result;
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+	}
+}

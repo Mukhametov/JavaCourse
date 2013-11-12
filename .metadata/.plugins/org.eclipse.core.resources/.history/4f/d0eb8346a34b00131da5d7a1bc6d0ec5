@@ -1,0 +1,65 @@
+package ru.jcourse.less002.components;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Stack;
+
+import ru.jcourse.less002.components.obj.Command;
+import ru.jcourse.less002.components.obj.Instruction;
+import ru.jcourse.less002.components.obj.Vars;
+
+public class Controller {
+	private Vars vars = new Vars();
+	private Stack<Double> stack = new Stack<>();
+	private Parser parser = new Parser();
+	private List<Instruction> instructions = new ArrayList<>();
+	private PrintWriter printWriter;
+	private Scanner scanner;
+
+	public Controller(InputStream inputStream, OutputStream outputStream) {
+		scanner = new Scanner(inputStream);
+		printWriter = new PrintWriter(outputStream);
+	}
+
+	private void readCommand() {
+		Command command = parser.parseCommand(scanner.nextLine());
+		if (command == null)
+			return;
+
+		Instruction instruction = InstructionFactory.getInstruction(command,
+				vars, stack);
+
+		if (instruction != null)
+			instructions.add(instruction);
+	}
+
+	private void executeCommand(Instruction i) {
+		Object o = i.execute();
+
+		if (o != null) {
+			printWriter.println(o);
+			printWriter.flush();
+		}
+	}
+
+	public void doMany() {
+		instructions = new ArrayList<>();
+		while (scanner.hasNext()) {
+			readCommand();
+		}
+
+		for (Instruction i : instructions) {
+			executeCommand(i);
+		}
+	}
+
+	public void doOne() {
+		instructions = new ArrayList<>();
+		readCommand();
+		executeCommand(i);
+	}
+}

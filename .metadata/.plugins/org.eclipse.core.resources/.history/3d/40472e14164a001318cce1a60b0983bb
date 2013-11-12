@@ -1,0 +1,20 @@
+package ru.jcourse.less002.instructions;
+
+import java.util.List;
+
+import ru.jcourse.less002.Instruction;
+import static ru.jcourse.less002.InstructionFactory.stack;
+
+public class Add implements Instruction{
+	
+	
+	@Override
+	public String execute(List<String> params) {
+		
+		stack.push(stack.pop() + stack.pop());
+		return null;
+		
+	}
+
+	
+}

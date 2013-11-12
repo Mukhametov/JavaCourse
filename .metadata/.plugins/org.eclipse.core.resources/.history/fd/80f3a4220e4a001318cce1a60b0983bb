@@ -1,0 +1,12 @@
+package ru.jcourse.less002;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Vars {
+	
+	private Map<String, Double> vars = new HashMap<>();
+	
+	
+	
+}

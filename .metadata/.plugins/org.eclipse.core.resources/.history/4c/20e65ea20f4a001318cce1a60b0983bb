@@ -1,0 +1,22 @@
+package ru.jcourse.less002.instructions;
+
+import static ru.jcourse.less002.InstructionFactory.stack;
+
+import java.util.List;
+
+import ru.jcourse.less002.Instruction;
+import ru.jcourse.less002.InstructionFactory;
+import ru.jcourse.less002.VarDigit;
+import ru.jcourse.less002.exceptions.CanNotParseString;
+
+public class Push implements Instruction {
+
+	@Override
+	public String execute(List<String> params) throws CanNotParseString {
+
+		stack.push(InstructionFactory.vars.getValue(params.get(0)));
+		return null;
+
+	}
+
+}

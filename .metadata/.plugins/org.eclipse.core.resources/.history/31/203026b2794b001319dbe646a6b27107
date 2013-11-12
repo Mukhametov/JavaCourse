@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Run {
+	public static void main(String[] args) {
+		System.out.print("Введите значение элемента: ");
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			String com = sc.nextLine();
+			String C = com.substring(0, com.indexOf(" "));
+			String arguments = com.substring(com.indexOf(" "));
+			Operation op = (Operation) Class.sc.forname(C); // sc пишет красным
+															// цветом
+
+			op.execute(arguments); // arguments подчеркивает волнистой красной
+									// линией
+		}
+
+	}
+
+}

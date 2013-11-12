@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Run {
+	public static void main(String[] args) {
+		System.out.print("¬ведите значение элемента: ");
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			String com = sc.nextLine();
+			String C = com.substring(0, com.indexOf(" "));
+			String arguments = com.substring(com.indexOf(" "));
+			
+			
+			
+			Operation op ;
+		    if(C.equals("Push"))  // C красным цветом
+		      op=new Push();  // все выражение подчеркнуто волнистой линией
+		    else if (C.equals("Print")) // C красным цветом
+		      op=new Print();  // все выражение подчеркнуто волнистой линией
+
+			op.execute(arguments); // arguments подчеркивает волнистой красной
+									// линией
+		}
+
+	}
+
+}
