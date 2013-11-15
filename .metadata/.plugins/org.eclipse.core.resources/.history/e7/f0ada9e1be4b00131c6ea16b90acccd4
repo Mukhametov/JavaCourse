@@ -1,0 +1,27 @@
+package ru.jcourse.less002.util;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Parser {
+
+	public static String[] parseCommand(String line) {
+		if (line.equals("")) {
+			return null;
+		}
+
+		return line.split(" ");
+		
+//		Command command = new Command();
+//
+//		command.setInstructionName(st[0].toUpperCase());
+//
+//		List<String> res = new ArrayList<String>(Arrays.asList(st));
+//		res.remove(0);
+//		command.setParams(res);
+//		
+//		return command;
+	}
+
+}

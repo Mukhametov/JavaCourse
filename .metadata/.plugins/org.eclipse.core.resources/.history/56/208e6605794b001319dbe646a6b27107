@@ -1,0 +1,9 @@
+import java.util.Stack;
+
+public class Storage {
+	public static Stack stack = new Stack();
+
+	public static void Hashma(String arguments) {
+		Storage.stack.push(arguments); // без ошибок
+	}
+}

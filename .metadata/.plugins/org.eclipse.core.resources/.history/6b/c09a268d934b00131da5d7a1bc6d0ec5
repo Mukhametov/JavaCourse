@@ -1,0 +1,22 @@
+package ru.jcourse.less002.instructions;
+
+import java.util.List;
+
+import ru.jcourse.less002.components.Instruction;
+import ru.jcourse.less002.components.obj.Autowired;
+import ru.jcourse.less002.components.obj.FieldTarget;
+
+public class Sharp implements Instruction {
+
+	@Autowired(fieldTarget = FieldTarget.PARAMS)
+	public List<String> params;
+
+	@Override
+	public String execute() {
+		String result = "#";
+		for (int i = 0; i < params.size(); i++)
+			result += params.get(i);
+		return result;
+	}
+
+}

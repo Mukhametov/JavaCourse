@@ -1,0 +1,19 @@
+package ru.jcourse.less002.instructions;
+
+import java.util.List;
+
+import ru.jcourse.less002.Instruction;
+import static ru.jcourse.less002.InstructionFactory.stack;
+
+public class Print implements Instruction{
+	
+	
+	@Override
+	public String execute(List<String> params) {
+		
+		return "" + stack.get(stack.size()-1);
+		
+	}
+
+	
+}

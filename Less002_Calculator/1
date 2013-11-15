@@ -1,0 +1,41 @@
+DEFINE a -1
+DEFINE b 0
+DEFINE c 16
+
+PUSH b
+PUSH b
+*
+# b^2
+PRINT
+
+PUSH 4
+PUSH a
+PUSH c
+*
+*
+# 4ac
+PRINT
+
+-
+# b^2 - 4ac
+PRINT
+
+SQRT
+# SQRT(b^2 - 4ac)
+PRINT
+
+PUSH b
+-
+# SQRT(b^2 - 4ac) - b
+PRINT
+
+
+PUSH 2
+PUSH a
+*
+# 2a
+PRINT
+
+/
+# (SQRT(b^2 - 4ac) - b) / 2a
+PRINT

@@ -1,0 +1,12 @@
+public class Push implements Operation {
+	public void execute(String arguments) {
+		
+	}
+
+	@Override
+	public void execute(String arg1, String arg2) {
+		Storage.Push(arg1);
+		
+	}
+
+}

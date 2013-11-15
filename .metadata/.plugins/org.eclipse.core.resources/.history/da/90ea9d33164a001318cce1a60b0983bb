@@ -1,0 +1,19 @@
+package ru.jcourse.less002.instructions;
+
+import static ru.jcourse.less002.InstructionFactory.stack;
+
+import java.util.List;
+
+import ru.jcourse.less002.Instruction;
+
+public class Sub implements Instruction {
+
+	@Override
+	public String execute(List<String> params) {
+		Double d = stack.pop();
+		stack.push(stack.pop() - d);
+		
+		return null;
+	}
+
+}

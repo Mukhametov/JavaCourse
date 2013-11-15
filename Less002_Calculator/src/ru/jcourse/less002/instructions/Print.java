@@ -1,5 +1,6 @@
 package ru.jcourse.less002.instructions;
 
+<<<<<<< HEAD
 import ru.jcourse.less002.Instruction;
 
 public class Print implements Instruction{
@@ -11,4 +12,23 @@ public class Print implements Instruction{
 	}
 
 	
+=======
+import java.util.Stack;
+
+import ru.jcourse.less002.components.obj.Autowired;
+import ru.jcourse.less002.components.obj.FieldTarget;
+import ru.jcourse.less002.components.obj.Instruction;
+
+public class Print implements Instruction {
+	@Autowired(fieldTarget = FieldTarget.STACK)
+	public Stack<Double> stack;
+
+	@Override
+	public String execute() {
+
+		return "" + stack.get(stack.size() - 1);
+
+	}
+
+>>>>>>> f9f6a1aa8aa44927e34ae6ef281ee64f38595acc
 }

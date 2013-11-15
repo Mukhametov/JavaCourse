@@ -1,5 +1,6 @@
 package ru.jcourse.less002;
 
+<<<<<<< HEAD
 public class Run {
 
 	public static void main(String[] args) {
@@ -33,4 +34,28 @@ public class Run {
 		
 	}
 	
+=======
+import java.io.FileInputStream;
+
+import ru.jcourse.less002.components.Calculator;
+
+
+public class Run {
+
+	public static void main(String[] args) throws Exception {
+
+		Calculator controller = new Calculator(new FileInputStream(
+				"D:\\Prog\\stud\\JavaCourse\\Less002_Calculator\\1"),
+				System.out);
+
+		controller.doMany();
+
+		
+//		Calculator controller = new Calculator(System.in,
+//				System.out);
+//
+//		
+//		controller.doOne();
+	}
+>>>>>>> f9f6a1aa8aa44927e34ae6ef281ee64f38595acc
 }

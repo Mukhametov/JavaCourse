@@ -1,0 +1,22 @@
+package ru.jcourse.less002;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import ru.jcourse.less002.components.Controller;
+
+public class Run {
+
+	public static void main(String[] args) throws Exception {
+
+		 new Controller(new FileInputStream(
+		 "D:\\Prog\\stud\\JavaCourse\\Less002_Calculator\\1"),
+		 System.out);
+//		 new Controller(System.in, System.out);
+
+		 Properties properties = new Properties();
+		 properties.put("Push", "ru.jcourse.less002.instructions.Push");
+		 
+		 
+	}
+}

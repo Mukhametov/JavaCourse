@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="FileSystemImportWizard">
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="1440" key="dialogWidth"/>
 		<item value="764" key="dialogHeight"/>
+=======
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="1025" key="dialogWidth"/>
+		<item value="526" key="dialogHeight"/>
+>>>>>>> f9f6a1aa8aa44927e34ae6ef281ee64f38595acc
 		<list key="orderedProviders">
 		</list>
 		<list key="textArray">
@@ -15,5 +21,12 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
+<<<<<<< HEAD
+=======
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+>>>>>>> f9f6a1aa8aa44927e34ae6ef281ee64f38595acc
 	</section>
 </section>

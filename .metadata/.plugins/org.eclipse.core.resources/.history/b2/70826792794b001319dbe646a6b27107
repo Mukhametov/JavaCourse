@@ -1,0 +1,10 @@
+public class Print implements Operation {
+
+	@Override
+	public void execute(String arg) {
+		System.out.println(Storage.stack.pop()); // подчеркивает красной
+													// волнистой линией все
+													// выражение
+	}
+
+}

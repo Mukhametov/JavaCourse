@@ -1,0 +1,11 @@
+package ru.jcourse.less002.components.obj;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(java.lang.annotation.ElementType.FIELD)
+public @interface Autowired {
+	FieldTarget fieldTarget();
+}

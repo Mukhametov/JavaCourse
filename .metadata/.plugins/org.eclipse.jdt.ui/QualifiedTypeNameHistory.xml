@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="ru.jcourse.less002.Instruction"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
@@ -13,4 +14,47 @@
 <fullyQualifiedTypeName name="ru.jcourse.less002.VarDigit"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="Push"/>
+=======
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.exceptions.CanNotFindVariable"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.InstructionFactory"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+<fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.Vars"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.Instruction"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.Autowired"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.FieldTarget"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.Command"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.components.Controller"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.components.Parser"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.components.Calculator"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.instructions.Add"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.components.obj.Instruction"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.components.InstructionFactory"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="ru.jcourse.less002.components.VarRegister"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+>>>>>>> f9f6a1aa8aa44927e34ae6ef281ee64f38595acc
 </qualifiedTypeNameHistroy>

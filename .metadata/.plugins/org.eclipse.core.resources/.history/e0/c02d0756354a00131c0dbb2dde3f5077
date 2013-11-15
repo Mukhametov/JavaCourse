@@ -1,0 +1,7 @@
+package ru.jcourse.less002;
+
+public interface Instruction {
+
+	public String execute() throws RuntimeException;
+	
+}

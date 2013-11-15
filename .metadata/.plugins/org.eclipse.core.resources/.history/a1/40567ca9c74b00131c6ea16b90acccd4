@@ -1,0 +1,102 @@
+package test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Properties;
+import java.util.Stack;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import ru.jcourse.less002.components.InstructionFactory;
+import ru.jcourse.less002.components.VarRegister;
+import ru.jcourse.less002.components.obj.Instruction;
+import ru.jcourse.less002.instructions.Add;
+
+public class TestInstructions {
+	private Stack<Double> stack;
+	private InstructionFactory instructionFactory;
+//	private Properties properties;
+	private Instruction instruction;
+	private VarRegister varRegister;
+
+	@Before
+	public void init() {
+		stack = new Stack<Double>();
+		instructionFactory = new InstructionFactory();
+		varRegister = new VarRegister();
+	}
+
+	@Test
+	public void testAdd() {
+		stack.push(3.0);
+		stack.push(5.0);
+		
+		String[] params = {"+"};
+		instruction = instructionFactory.getInstruction(params, varRegister,
+				stack);
+		instruction.execute();
+		Assert.assertEquals("Add operation failed", Double.valueOf(stack.pop()).compareTo(8.0), 0);
+	}
+	
+	@Test
+	public void testSub() {
+		stack.push(9.0);
+		stack.push(5.0);
+		
+		String[] params = {"-"};
+		instruction = instructionFactory.getInstruction(params, varRegister,
+				stack);
+		instruction.execute();
+		Assert.assertEquals("Sub operation failed", Double.valueOf(stack.pop()).compareTo(4.0), 0);
+	}
+	
+	@Test
+	public void testMul() {
+		stack.push(9.0);
+		stack.push(5.0);
+		
+		String[] params = {"*"};
+		instruction = instructionFactory.getInstruction(params, varRegister,
+				stack);
+		instruction.execute();
+		Assert.assertEquals("Mul operation failed", Double.valueOf(stack.pop()).compareTo(45.0), 0);
+	}
+	
+	@Test
+	public void testDiv() {
+		stack.push(40.0);
+		stack.push(5.0);
+		
+		String[] params = {"/"};
+		instruction = instructionFactory.getInstruction(params, varRegister,
+				stack);
+		instruction.execute();
+		Assert.assertEquals("Div operation failed", Double.valueOf(stack.pop()).compareTo(8.0), 0);
+	}
+	
+	@Test
+	public void testDefine() {
+		String[] params = {"DEFINE",  "a",  "30"};
+		instruction = instructionFactory.getInstruction(params, varRegister,
+				stack);
+		instruction.execute();
+		Assert.assertEquals("Define operation failed", Double.valueOf(
+				varRegister.getValue("a")).compareTo(30.0), 0);
+	}
+	
+	@Test
+	public void testPop() {
+		String[] params = {"DEFINE",  "a",  "30"};
+		instruction = instructionFactory.getInstruction(params, varRegister,
+				stack);
+		instruction.execute();
+		Assert.assertEquals("Pop operation failed", Double.valueOf(
+				varRegister.getValue("a")).compareTo(30.0), 0);
+	}
+	
+	
+}
