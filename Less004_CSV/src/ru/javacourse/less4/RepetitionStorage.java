@@ -1,6 +1,6 @@
 package ru.javacourse.less4;
 
-import java.util.HashMap;
+import java.util.TreeMap;
 
 /**
  * Created with IntelliJ IDEA.
@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Time: 23:51
  * To change this template use File | Settings | File Templates.
  */
-public class RepetitionStorage extends HashMap<String, Integer> {
+public class RepetitionStorage extends TreeMap<String, Integer> {
 
     public void add(String s){
         if (s.equals(""))
@@ -19,4 +19,5 @@ public class RepetitionStorage extends HashMap<String, Integer> {
             i = get(s);
         put(s, ++i);
     }
+
 }

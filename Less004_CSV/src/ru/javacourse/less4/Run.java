@@ -3,6 +3,7 @@ package ru.javacourse.less4;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,10 +19,11 @@ public class Run {
         Parser parser = new Parser("in.txt");
         Map<String, Integer> map = parser.getMap();
 
+        Sorter sorter = new Sorter(map);
+        Set<Sorter.MyObject> set = sorter.Sort();
 
-
-        for (String s: map.keySet()){
-            System.out.println(s + " | " + map.get(s));
+        for (Sorter.MyObject mo: set){
+            System.out.println(mo.getCount() + " | " + mo.getText());
         }
 
     }
