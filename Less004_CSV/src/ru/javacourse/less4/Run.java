@@ -1,8 +1,9 @@
 package ru.javacourse.less4;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
+import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 /**
@@ -16,15 +17,15 @@ public class Run {
 
     public static void main(String[] args) throws IOException {
 
-        Parser parser = new Parser("in.txt");
-        Map<String, Integer> map = parser.getMap();
+        Map<String, Integer> map = new Parser("in.txt").getMap();
 
-        Sorter sorter = new Sorter(map);
-        Set<Sorter.MyObject> set = sorter.Sort();
+        Set<StatisticItem> set = new Sorter(map).Sort();
 
-        for (Sorter.MyObject mo: set){
-            System.out.println(mo.getCount() + " | " + mo.getText());
+        PrintWriter printWriter = new PrintWriter("out.csv", "CP1251");
+        for (StatisticItem si : set) {
+            printWriter.println(si.toString());
         }
+        printWriter.close();
 
     }
 

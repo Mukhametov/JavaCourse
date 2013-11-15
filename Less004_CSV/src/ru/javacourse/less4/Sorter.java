@@ -19,42 +19,11 @@ public class Sorter {
         this.map = map;
     }
 
-   public Set<MyObject> Sort(){
-       Set<MyObject> set = new TreeSet<MyObject>();
+   public Set<StatisticItem> Sort(){
+       Set<StatisticItem> set = new TreeSet<StatisticItem>();
 
        for (String s: map.keySet())
-           set.add(new MyObject(s, map.get(s)));
+           set.add(new StatisticItem(s, map.get(s), map.keySet().size()));
        return set;
    }
-
-    class MyObject implements Comparable<MyObject>{
-        private String text;
-        private int count;
-
-        MyObject(String text, int count) {
-            this.text = text;
-            this.count = count;
-        }
-
-        String getText() {
-            return text;
-        }
-
-        void setText(String text) {
-            this.text = text;
-        }
-
-        int getCount() {
-            return count;
-        }
-
-        void setCount(int count) {
-            this.count = count;
-        }
-
-        @Override
-        public int compareTo(MyObject o) {
-            return this.count - o.count;
-        }
-    }
 }
