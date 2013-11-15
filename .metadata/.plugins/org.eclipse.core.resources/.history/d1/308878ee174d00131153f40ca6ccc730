@@ -1,0 +1,17 @@
+import java.util.Stack;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Семен
+ * Date: 09.11.13
+ * Time: 22:48
+ * To change this template use File | Settings | File Templates.
+ */
+public class Print implements Operation {
+public void execute(String arguments, Stack stack) {
+    System.out.println(Storage.stack.pop());
+
+}
+
+
+}

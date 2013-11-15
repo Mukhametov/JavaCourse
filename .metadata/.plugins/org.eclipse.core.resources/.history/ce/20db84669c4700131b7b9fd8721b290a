@@ -1,0 +1,12 @@
+package ru.jcourse.less002;
+
+public class VarDigit {
+	
+	String name;
+	double value;
+	
+	public VarDigit() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

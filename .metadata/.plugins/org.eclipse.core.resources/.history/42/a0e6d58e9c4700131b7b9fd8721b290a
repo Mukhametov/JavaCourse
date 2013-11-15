@@ -1,0 +1,15 @@
+package ru.jcourse.less002;
+
+public class VarDigit {
+	
+	String name;
+	double value;
+	
+	public VarDigit(String name, double value) {
+		super();
+		this.name = name;
+		this.value = value;
+	}
+	
+	
+}

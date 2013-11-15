@@ -1,0 +1,46 @@
+import java.util.Scanner;
+import java.util.Stack;
+import java.lang.String;
+
+/**
+ * Created with IntelliJ IDEA. User: Семен Date: 09.11.13 Time: 22:31 To
+ * change this template use File | Settings | File Templates.
+ */
+public class Run {
+	public static void main(String[] args) {
+
+		String s = "SDDDFS fsdgf fseE".spl
+		
+		
+		Scanner sc = new Scanner(System.in);
+		Stack stack = new Stack();
+
+		while (true) {
+			String com = sc.nextLine();
+			String C = com.substring(0, com.indexOf(" "));
+			String arguments = com.substring(com.indexOf(" "));
+			Operation op = null;
+
+			
+			
+			
+			if ("PUSH".equals(C))
+				op = new Push();
+
+			else if ("PRINT".equals(C))
+				op = new Print();
+
+			else if (("PLUS").equals(C))
+				op = new Plus(arguments, stack);
+
+			else if ("POP".equals(C))
+				op = new Pop();
+
+			if (op != null) {
+				op.execute(arguments, stack);
+			}
+		}
+
+	}
+
+}

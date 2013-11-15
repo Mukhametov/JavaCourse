@@ -1,0 +1,24 @@
+package ru.jcourse.less002;
+
+import java.util.HashMap;
+
+public class VarDigit {
+	
+	public static HashMap<String, VarDigit> hashMap = new HashMap<>();
+	
+	String name;
+	double value;
+	
+	public VarDigit(String name, double value) {
+		super();
+		this.name = name;
+		this.value = value;
+	}
+	
+	public double getValue(){
+		if (name != null)
+			return hashMap.get(name).getValue();
+		else return value;
+	}
+	
+}
