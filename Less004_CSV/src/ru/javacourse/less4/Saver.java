@@ -19,17 +19,13 @@ public class Saver {
         this.set = set;
     }
 
-    public void save(String fileName) {
+    public void save(String fileName) throws Exception{
         PrintWriter printWriter = null;
         try {
             printWriter = new PrintWriter(fileName, "CP1251");
             for (StatisticItem si : set) {
                 printWriter.println(si.toString());
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } finally {
             if (printWriter != null)
                 printWriter.close();

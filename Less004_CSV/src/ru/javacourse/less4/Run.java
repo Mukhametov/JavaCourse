@@ -15,17 +15,12 @@ import java.util.Set;
  */
 public class Run {
 
-    public static void main(String[] args) throws IOException {
-
-        Parser parser = new Parser("in.txt");
+    public static void main(String[] args) throws Exception {
+        Parser parser = new Parser(args[0]);  // взять args[0]
         Map<String, Integer> map = parser.getMap();
-
         Set<StatisticItem> set = new Sorter(map).getSortedSet();
-
         new Filler(set).fillPercent(parser.getWordCount());
-
-        new Saver(set).save("out.csv");
-
+        new Saver(set).save(args[1]); //argv[1]
         System.out.println("TA-DA!");
     }
 

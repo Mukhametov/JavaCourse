@@ -4,13 +4,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Administrator
- * Date: 15.11.13
- * Time: 17:23
- * To change this template use File | Settings | File Templates.
- */
 public class Sorter {
 
     Map<String, Integer> map;
