@@ -12,10 +12,10 @@ public class StatisticItem implements Comparable<StatisticItem> {
     private int count;
     private double percent;
 
-    public StatisticItem(String text, int count, int size) {
+    public StatisticItem(String text, int count) {
         this.text = text;
         this.count = count;
-        percent = count * 100 / size;
+
     }
 
     String getText() {
@@ -51,6 +51,6 @@ public class StatisticItem implements Comparable<StatisticItem> {
 
     @Override
     public String toString() {
-        return text + ";" + count + ";" + percent + ";";
+        return (text + ";" + count + ";" + percent + ";").replace(".", ",");
     }
 }

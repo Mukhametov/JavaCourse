@@ -17,16 +17,16 @@ public class Run {
 
     public static void main(String[] args) throws IOException {
 
-        Map<String, Integer> map = new Parser("in.txt").getMap();
+        Parser parser = new Parser("in.txt");
+        Map<String, Integer> map = parser.getMap();
 
-        Set<StatisticItem> set = new Sorter(map).Sort();
+        Set<StatisticItem> set = new Sorter(map).getSortedSet();
 
-        PrintWriter printWriter = new PrintWriter("out.csv", "CP1251");
-        for (StatisticItem si : set) {
-            printWriter.println(si.toString());
-        }
-        printWriter.close();
+        new Filler(set).fillPercent(parser.getWordCount());
 
+        new Saver(set).save("out.csv");
+
+        System.out.println("TA-DA!");
     }
 
 }

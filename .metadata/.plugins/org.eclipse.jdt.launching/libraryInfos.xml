@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-<<<<<<< HEAD
-<libraryInfo home="E:\Program Files\Java\jre7" version="1.7.0_45">
-<bootpath>
-<entry path="E:\Program Files\Java\jre7\lib\resources.jar"/>
-<entry path="E:\Program Files\Java\jre7\lib\rt.jar"/>
-<entry path="E:\Program Files\Java\jre7\lib\sunrsasign.jar"/>
-<entry path="E:\Program Files\Java\jre7\lib\jsse.jar"/>
-<entry path="E:\Program Files\Java\jre7\lib\jce.jar"/>
-<entry path="E:\Program Files\Java\jre7\lib\charsets.jar"/>
-<entry path="E:\Program Files\Java\jre7\lib\jfr.jar"/>
-<entry path="E:\Program Files\Java\jre7\classes"/>
-</bootpath>
-<extensionDirs>
-<entry path="E:\Program Files\Java\jre7\lib\ext"/>
-<entry path="E:\WINDOWS\Sun\Java\lib\ext"/>
-</extensionDirs>
-<endorsedDirs>
-<entry path="E:\Program Files\Java\jre7\lib\endorsed"/>
-</endorsedDirs>
-</libraryInfo>
-<libraryInfo home="C:\Program Files\Java\jre7" version="1.7.0_45">
-=======
 <libraryInfo home="C:\Program Files\Java\jre7" version="1.7.0_21">
->>>>>>> f9f6a1aa8aa44927e34ae6ef281ee64f38595acc
 <bootpath>
 <entry path="C:\Program Files\Java\jre7\lib\resources.jar"/>
 <entry path="C:\Program Files\Java\jre7\lib\rt.jar"/>

@@ -19,11 +19,11 @@ public class Sorter {
         this.map = map;
     }
 
-   public Set<StatisticItem> Sort(){
+   public Set<StatisticItem> getSortedSet(){
        Set<StatisticItem> set = new TreeSet<StatisticItem>();
 
        for (String s: map.keySet())
-           set.add(new StatisticItem(s, map.get(s), map.keySet().size()));
+           set.add(new StatisticItem(s, map.get(s)));
        return set;
    }
 }

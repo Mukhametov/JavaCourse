@@ -4,15 +4,20 @@
     <list default="true" id="55057369-42a6-4e6b-8894-1647b67375c9" name="Default" comment="" />
     <ignored path="Less004_CSV.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Run.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384526242835" ignored="false" />
-    <file path="/Parser.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384450117589" ignored="false" />
+    <file path="/Run.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384595101733" ignored="false" />
+    <file path="/Parser.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384589750917" ignored="false" />
     <file path="/Storage.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384448157295" ignored="false" />
     <file path="/RepetitionStorage.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384510895234" ignored="false" />
     <file path="/StatisticObject.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384509084765" ignored="false" />
     <file path="/MyString.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384509243140" ignored="false" />
-    <file path="/Sorter.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384524640671" ignored="false" />
+    <file path="/Sorter.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384589039323" ignored="false" />
     <file path="/fragment.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384523899454" ignored="false" />
-    <file path="/StatisticItem.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384524655953" ignored="false" />
+    <file path="/StatisticItem.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384588191247" ignored="false" />
+    <file path="/Filler.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384589480983" ignored="false" />
+    <file path="/Saver.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384592603619" ignored="false" />
+    <file path="/ExceptionGenerator.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384594540097" ignored="false" />
+    <file path="/IExceptionGenerator.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384594639295" ignored="false" />
+    <file path="/MyException.java" changelist="55057369-42a6-4e6b-8894-1647b67375c9" time="1384594602325" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,31 +78,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Run.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Run.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="64" selection-start="571" selection-end="571" vertical-scroll-proportion="0.44715446">
+            <state line="19" column="23" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatisticItem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/StatisticItem.java">
+      <file leaf-file-name="IExceptionGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/IExceptionGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="54" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
+            <state line="12" column="16" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sorter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Sorter.java">
+      <file leaf-file-name="Run.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="71" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#472#487#0" expanded="true" />
-              </folding>
+            <state line="17" column="29" selection-start="496" selection-end="496" vertical-scroll-proportion="-0.598916">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/MyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/ExceptionGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="38" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,14 +134,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Storage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Parser.java" />
         <option value="$PROJECT_DIR$/src/ru/javacourse/less4/StatisticObject.java" />
         <option value="$PROJECT_DIR$/src/ru/javacourse/less4/MyString.java" />
         <option value="$PROJECT_DIR$/src/ru/javacourse/less4/RepetitionStorage.java" />
         <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Record.java" />
-        <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Sorter.java" />
+        <option value="$PROJECT_DIR$/in.txt" />
         <option value="$PROJECT_DIR$/src/ru/javacourse/less4/StatisticItem.java" />
+        <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Parser.java" />
+        <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Filler.java" />
+        <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Saver.java" />
         <option value="$PROJECT_DIR$/src/ru/javacourse/less4/Run.java" />
+        <option value="$PROJECT_DIR$/../Less005_1_Exceptions/src/ExceptionGenerator.java" />
+        <option value="$PROJECT_DIR$/../Less005_1_Exceptions/src/MyException.java" />
+        <option value="$PROJECT_DIR$/../Less005_1_Exceptions/src/IExceptionGenerator.java" />
+        <option value="$PROJECT_DIR$/../Less005_1_Exceptions/src/Run.java" />
       </list>
     </option>
   </component>
@@ -164,34 +192,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Less004_CSV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Less004_CSV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Less004_CSV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Less004_CSV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -200,19 +200,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Application.Run">
     <configuration default="false" name="Run" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ru.javacourse.less4.Run" />
+      <option name="MAIN_CLASS_NAME" value="Run" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -221,7 +221,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Less004_CSV" />
+      <module name="Less005_1_Exceptions" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -239,6 +239,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -266,19 +279,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -319,8 +319,9 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Run" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Run" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Run" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -344,21 +345,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17651515" sideWeight="0.67291313" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17651515" sideWeight="0.67291313" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -428,39 +429,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="119" selection-end="273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="23" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/RepetitionStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="119" selection-end="273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="23" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
@@ -492,32 +460,81 @@
         <state line="11" column="46" selection-start="251" selection-end="258" vertical-scroll-proportion="0.3246528" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="81" selection-start="4324" selection-end="4324" vertical-scroll-proportion="0.9616788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/StatisticItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="43" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Filler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="76" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+        <state line="51" column="0" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="71" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#472#487#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/StatisticItem.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Saver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="54" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="19" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.401084">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javacourse/less4/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="571" selection-end="571" vertical-scroll-proportion="0.44715446">
+        <state line="19" column="23" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/ExceptionGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="38" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/IExceptionGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Less005_1_Exceptions/src/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="496" selection-end="496" vertical-scroll-proportion="-0.598916">
           <folding />
         </state>
       </provider>

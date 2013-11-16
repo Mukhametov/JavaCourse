@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class TestGeneric {
+
+	abstract class Shape{
+		public abstract void draw(); 
+	}
+	
+	class Polygon extends Shape{
+		@Override
+		public void draw() {
+			System.out.println(getClass().getSimpleName());
+		}
+	}
+	
+	class Ellipse extends Shape{
+		@Override
+		public void draw() {
+			System.out.println(getClass().getSimpleName());
+		}
+	}
+
+	class Circle extends Shape{
+		@Override
+		public void draw() {
+			System.out.println(getClass().getSimpleName());
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		List<Shape> list = new ArrayList<>();
+		
+		list.add(new Circle());
+		
+		
+	}
+
+}
