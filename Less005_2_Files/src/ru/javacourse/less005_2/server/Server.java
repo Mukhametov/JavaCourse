@@ -3,7 +3,7 @@ package ru.javacourse.less005_2.server;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Arrays;
+import java.util.Properties;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,20 +14,37 @@ import java.util.Arrays;
  */
 public class Server {
 
-    public static String serverName = "192.168.0.35:8080";
-
-    public Server(String serverName, int port) {
+    public Server() {
+        Properties properties = new Properties();
         try {
-            Server.serverName = serverName + ":" + port;
+            properties.load(new FileInputStream("context"));
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
 
-            ServerSocket serverSocket = new ServerSocket(port);
 
+        ServerSocket serverSocket = null;
+        Socket socket = null;
+        try {
+            serverSocket = new ServerSocket(Integer.parseInt((String) properties.get("Port")));
             while (true) {
-                Socket socket = serverSocket.accept();
-                new Thread(new Client(socket)).start();
+                socket = serverSocket.accept();
+                new Thread(new ClientDispatcher(socket)).start();
             }
         } catch (Exception e) {
-
+            e.printStackTrace();
+        }
+        finally {
+            try {
+                socket.close();
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+            try {
+                serverSocket.close();
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
         }
     }
 }

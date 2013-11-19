@@ -2,6 +2,10 @@ package ru.javacourse.less005_2.pages.page_ok_components;
 
 import ru.javacourse.less005_2.server.Server;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Vladimir
@@ -20,7 +24,14 @@ public class ParentHref {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         try {
-            sb.append("<a href=\"http://"+ Server.serverName+"/");
+            Properties properties = new Properties();
+            try {
+                properties.load(new FileInputStream("context"));
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+
+            sb.append("<a href=\"http://"+ properties.get("ServerName")+ ":" + properties.get("Port")+"/");
             sb.append(f.getParentFile().toString());
             sb.append("/\">");
             sb.append("[..]");

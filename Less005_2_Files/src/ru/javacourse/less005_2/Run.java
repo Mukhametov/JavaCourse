@@ -15,15 +15,7 @@ import java.io.UnsupportedEncodingException;
  * To change this template use File | Settings | File Templates.
  */
 public class Run {
-
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
-
-//        File file = new File("D:\\РС\\HPDBF!.zip11");
-
-//        FileViewer fileViewer = new FileViewer(file, System.out);
-//        PageOk fileViewer = new PageOk(file, new PrintStream("out.html", "CP1251"));
-          new Server("192.168.0.35", 8080);
-
+          new Server();
     }
-
 }

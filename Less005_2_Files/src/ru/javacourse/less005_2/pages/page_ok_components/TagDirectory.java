@@ -3,6 +3,9 @@ package ru.javacourse.less005_2.pages.page_ok_components;
 import ru.javacourse.less005_2.server.Server;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,8 +26,15 @@ public class TagDirectory {
     public String toString() {
 //        if (f.toString().length()<=3)
 //            return "";
+        Properties properties = new Properties();
+        try {
+            properties.load(new FileInputStream("context"));
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
         StringBuilder sb = new StringBuilder();
-        sb.append("<a href=\"http://"+ Server.serverName+"/");
+        sb.append("<a href=\"http://"+ properties.get("ServerName")+ ":" + properties.get("Port")+"/");
         sb.append(f.toString());
         sb.append("/\">");
         sb.append("["+f.getName().toUpperCase()+"]");
