@@ -25,6 +25,9 @@
         <module name="Less007_Tomcat" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Less007_Tomcat" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
