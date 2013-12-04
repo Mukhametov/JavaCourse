@@ -4,13 +4,13 @@
     <list default="true" id="7c2eff01-1279-48f5-97d5-b03b2be93a4f" name="Default" comment="" />
     <ignored path="Less007_Tomcat.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385193977760" ignored="false" />
-    <file path="/pom.xml" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385265395742" ignored="false" />
+    <file path="/a.dummy" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385648637890" ignored="false" />
+    <file path="/pom.xml" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385566693637" ignored="false" />
     <file path="/web.xml" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385199438029" ignored="false" />
     <file path="/fragment.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385200884348" ignored="false" />
-    <file path="/Hello.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385404327138" ignored="false" />
-    <file path="/page.jsp" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385398508983" ignored="false" />
-    <file path="/CommandFactory.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385400373634" ignored="false" />
+    <file path="/Hello.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385804023736" ignored="false" />
+    <file path="/page.jsp" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385969958320" ignored="false" />
+    <file path="/CommandFactory.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385799321603" ignored="false" />
     <file path="/App.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385402098266" ignored="false" />
     <file path="/Command.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385400887676" ignored="false" />
     <file path="/UnknownCommand.java" changelist="7c2eff01-1279-48f5-97d5-b03b2be93a4f" time="1385401033164" ignored="false" />
@@ -33,7 +33,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -70,6 +69,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -82,16 +82,16 @@
       <file leaf-file-name="Hello.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
+            <state line="25" column="14" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page.jsp">
+      <file leaf-file-name="PostDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Dao/PostDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.24242425">
+            <state line="12" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +100,25 @@
       <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="87" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+            <state line="25" column="11" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/CommandFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="5" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="53" selection-start="685" selection-end="685" vertical-scroll-proportion="0.81534773">
               <folding />
             </state>
           </provider>
@@ -116,22 +134,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/UnknownCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/Help.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Dao/PostDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Dao/PostDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Dao/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/List.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/Add.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page.jsp" />
       </list>
     </option>
   </component>
@@ -157,6 +175,20 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Less007_Tomcat Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Less007_Tomcat Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -226,28 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Less007_Tomcat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Less007_Tomcat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Less007_Tomcat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,6 +379,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Less007_Tomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Less007_Tomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -384,6 +424,8 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -392,6 +434,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -584,7 +628,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,10 +640,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20530303" sideWeight="0.7274276" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25151515" sideWeight="0.7741935" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.7274276" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2725724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22272727" sideWeight="0.7741935" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22580644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -640,7 +684,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -673,114 +717,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="87" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="47" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.29675812">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.7828467">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="271" selection-end="271" vertical-scroll-proportion="0.5087282">
+        <state line="17" column="17" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/UnknownCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="357" selection-end="357" vertical-scroll-proportion="0.5380435">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="44" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="26" selection-start="357" selection-end="357" vertical-scroll-proportion="0.5380435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Dao/PostDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+        <state line="13" column="34" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="3" selection-start="11332" selection-end="11332" vertical-scroll-proportion="-0.46898264" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="503" column="34" selection-start="18599" selection-end="18599" vertical-scroll-proportion="0.46153846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="80" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7826087">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="59" selection-start="148" selection-end="148" vertical-scroll-proportion="0.24156305">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/Dao/PostDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="501" selection-end="501" vertical-scroll-proportion="0.61340207" />
+        <state line="12" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/Add.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/CommandFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="80" selection-start="656" selection-end="656" vertical-scroll-proportion="0.63917524">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="25" column="5" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/jcourse/jdbc/factory/commands/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="87" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+        <state line="25" column="11" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="549" selection-end="549" vertical-scroll-proportion="0.17171717">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
+        <state line="25" column="14" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="659" selection-end="659" vertical-scroll-proportion="0.63309354">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.24242425">
+        <state line="20" column="53" selection-start="685" selection-end="685" vertical-scroll-proportion="0.81534773">
           <folding />
         </state>
       </provider>

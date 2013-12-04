@@ -38,9 +38,6 @@ public class CommandFactory {
         } finally {
 //            statement.close();
 //            conn.close();
-
-
-
         }
     }
 
